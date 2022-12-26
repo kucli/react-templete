@@ -1,0 +1,11 @@
+dist
+logs
+var
+node_modules
+package.json
+config.json
+*.min.js
+server
+static/build
+static/node_modules
+server/node_modules

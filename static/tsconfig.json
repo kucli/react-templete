@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "__tests__/*": ["__tests__/*"],
+      "*": ["src/*"]
+    },
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "jsx": "react",
+    "strict": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "useUnknownInCatchVariables": false,
+    "noImplicitAny": false,
+    "lib": ["dom", "es2015", "es2016", "es2017", "esnext"],
+    "noEmit": true,
+    // 允许 esm 模块内直接引用 cjs 模块
+    "esModuleInterop": true
+  },
+  "include": ["src", "__tests__"]
+}
